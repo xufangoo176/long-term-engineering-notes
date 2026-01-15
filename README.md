@@ -1,13 +1,20 @@
 # Engineering Notes
 
-This repository records my long-term engineering notes.
+This repository records my long-term engineering notes and practical experience.
 
-Topics include:
+I work across:
+- Backend system design (Java, transaction, SaaS)
+- Frontend development and integration
+- Database modeling and data consistency
+- Practical AI application integration in real systems
+
+Topics in this repository include:
 - System design and domain modeling
-- ToB SaaS and multi-tenant architecture
+- ToB SaaS architecture and multi-tenant systems
 - Transaction, pricing, and asset modeling
-- Reusable backend patterns and utilities (Java)
+- Reusable engineering patterns and utilities
+- Applying AI capabilities to existing software systems
 
-Most articles are written in Chinese, with brief English summaries.
+Most articles are written in Chinese, with brief English summaries when appropriate.
 
-This is a long-term personal knowledge base, not a tutorial collection.
+This repository is a long-term personal knowledge base, not a tutorial collection or demo code.
