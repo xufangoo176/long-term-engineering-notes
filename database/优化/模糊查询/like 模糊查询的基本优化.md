@@ -33,7 +33,9 @@ tips：想要做到 step 2，有一个数据库函数可以做到：UPDATE 'TABL
 ### 优化方式2️⃣：
 前置条件：MySQL version >= 5.7.6(如果达不到这个条件，就老老实实用上面的土方法)
 使用虚拟列。
+
 e.g. 
+
 1. 创建虚拟列
 ALTER TABLE 'test' ADD COLUMN 'v_name' VARCHAR(50) GENERATED ALWAYS AS (REVERSE('name')) VIRTUAL;
 2. 为虚拟以列 v_name 列添加索引
